@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Xrn.EntityCore\Xrn.Core.Entities.csproj" />
+    <ProjectReference Include="..\Xrn.Core.Entities\Xrn.Core.Entities.csproj" />
   </ItemGroup>
 
 </Project>
