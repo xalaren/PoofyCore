@@ -1,4 +1,5 @@
 # 🧩 Entities
+<br/>
  
 ## 🔍 Definition
 
@@ -8,11 +9,15 @@
 Namespace: SpoofyCore.Entities<br/>
 Platform: .NET 10 / C# 14
 
+<br/>
+
 ## 🔌 Interfaces 
 
 [ITypedKey](../../Entities/SpoofyCore.Entities/Abstractions/ITypedKey.cs)<br/>
 [IAuditable](../../Entities/SpoofyCore.Entities/Abstractions/IAuditable.cs)<br/>
 [IEmptyable](../../Entities/SpoofyCore.Entities/Abstractions/IEmptyable.cs)<br/>
 [IExpireable](../../Entities/SpoofyCore.Entities/Abstractions/IExpireable.cs)<br/>
+
+<br/>
 
 ## 📐 Abstract classes 
