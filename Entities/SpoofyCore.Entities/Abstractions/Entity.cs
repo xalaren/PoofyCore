@@ -1,4 +1,4 @@
-﻿namespace Xrn.Core.Entities.Abstractions;
+﻿namespace SpoofyCore.Entities.Abstractions;
 
 /// <summary>
 /// Base entity abstraction

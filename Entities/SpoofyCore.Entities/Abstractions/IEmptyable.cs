@@ -1,4 +1,4 @@
-﻿namespace Xrn.Core.Entities.Abstractions;
+﻿namespace SpoofyCore.Entities.Abstractions;
 
 /// <summary>
 /// Defines a contract for determining whether a value is empty.

@@ -1,4 +1,4 @@
-﻿namespace Xrn.Core.Entities.Abstractions;
+﻿namespace SpoofyCore.Entities.Abstractions;
 
 /// <summary>
 /// Provides typed primary key definition
@@ -19,7 +19,7 @@ public interface ITypedKey<out TKey> : ITypedKey where TKey : notnull
 /// </summary>
 /// <typeparam name="TSelf">Type of implementation</typeparam>
 /// <typeparam name="TKey">Type of key</typeparam>
-public interface ITypedKey<TSelf, TKey> : ITypedKey<TKey>, IEquatable<TSelf>
+public interface ITypedKey<TSelf, TKey> : ITypedKey<TKey>, IEquatable<TSelf>, IEmptyable<TSelf>
     where TSelf : struct, ITypedKey<TSelf, TKey>
     where TKey : notnull
 {

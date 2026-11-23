@@ -1,4 +1,4 @@
-﻿namespace Xrn.Core.Entities.Abstractions;
+﻿namespace SpoofyCore.Entities.Abstractions;
 
 /// <summary>
 /// Defines datetimes used to track when an entity was created and most recently modified.

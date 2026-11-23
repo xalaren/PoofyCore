@@ -1,4 +1,4 @@
-﻿namespace Xrn.Core.Entities.Abstractions;
+﻿namespace SpoofyCore.Entities.Abstractions;
 
 /// <summary>
 /// Represents an entity that tracks its creation and modification timestamps in UTC.

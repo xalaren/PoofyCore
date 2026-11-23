@@ -1,6 +1,6 @@
-using Xrn.Core.Entities.Abstractions;
+using SpoofyCore.Entities.Abstractions;
 
-namespace Xrn.Core.Entities.Tests;
+namespace SpoofyCore.Entities.Tests;
 
 internal sealed class TestAuditableEntity : AuditableEntity<TestKey>
 {
