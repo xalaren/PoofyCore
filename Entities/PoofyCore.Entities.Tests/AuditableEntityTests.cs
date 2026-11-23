@@ -1,6 +1,6 @@
-using SpoofyCore.Entities.Abstractions;
+using PoofyCore.Entities.Abstractions;
 
-namespace SpoofyCore.Entities.Tests;
+namespace PoofyCore.Entities.Tests;
 
 public class AuditableEntityTests
 {

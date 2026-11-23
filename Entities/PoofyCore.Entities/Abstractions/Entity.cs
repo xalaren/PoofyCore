@@ -1,4 +1,4 @@
-﻿namespace SpoofyCore.Entities.Abstractions;
+﻿namespace PoofyCore.Entities.Abstractions;
 
 /// <summary>
 /// Base entity abstraction

@@ -1,6 +1,0 @@
-<Solution>
-  <Folder Name="/Entities/">
-    <Project Path="Entities/SpoofyCore.Entities.Tests/SpoofyCore.Entities.Tests.csproj" Id="45f2bd6c-fc51-4e9b-9756-da5d5a9effa2" />
-    <Project Path="Entities/SpoofyCore.Entities/SpoofyCore.Entities.csproj" />
-  </Folder>
-</Solution>

@@ -1,10 +1,10 @@
-# SpoofyCore 
+# PoofyCore 
 
 <p align="center">
     <br/>
     <img src="./Docs/Resources/Icon.svg" alt="Icon" width="128">
     <p align="center">
-        <b>SpoofyCore</b> - is a set of useful utils for structure and build application core for .NET projects.
+        <b>PoofyCore</b> - is a set of useful utils for structure and build application core for .NET projects.
     </p>
     <br/>
 </p>

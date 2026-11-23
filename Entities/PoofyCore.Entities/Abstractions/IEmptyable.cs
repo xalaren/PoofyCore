@@ -1,4 +1,4 @@
-﻿namespace SpoofyCore.Entities.Abstractions;
+﻿namespace PoofyCore.Entities.Abstractions;
 
 /// <summary>
 /// Defines a contract for determining whether a value is empty.
