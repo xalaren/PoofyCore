@@ -10,7 +10,7 @@
 </p>
 
 
-## 🧾 Table of contents
+## 🧾 Contents
 
 [Entities](./Docs/Entities/ABOUT.md)
 

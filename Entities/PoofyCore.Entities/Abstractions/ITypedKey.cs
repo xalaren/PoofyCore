@@ -8,9 +8,12 @@ public interface ITypedKey { }
 /// <summary>
 /// Provides typed primary key definition
 /// </summary>
-/// <typeparam name="TKey">Type of key</typeparam
+/// <typeparam name="TKey">A primitive not null type that identifies an entity (e.g. `Guid`, `int`)</typeparam
 public interface ITypedKey<out TKey> : ITypedKey where TKey : notnull
 {
+    /// <summary>
+    /// The inner raw value of the key
+    /// </summary>
     TKey Key { get; }
 }
 
@@ -18,7 +21,7 @@ public interface ITypedKey<out TKey> : ITypedKey where TKey : notnull
 /// Provides typed primary key definition
 /// </summary>
 /// <typeparam name="TSelf">Type of implementation</typeparam>
-/// <typeparam name="TKey">Type of key</typeparam>
+/// <typeparam name="TKey">A primitive not null type that identifies an entity (e.g. `Guid`, `int`)</typeparam>
 public interface ITypedKey<TSelf, TKey> : ITypedKey<TKey>, IEquatable<TSelf>, IEmptyable<TSelf>
     where TSelf : struct, ITypedKey<TSelf, TKey>
     where TKey : notnull
@@ -26,7 +29,7 @@ public interface ITypedKey<TSelf, TKey> : ITypedKey<TKey>, IEquatable<TSelf>, IE
     /// <summary>
     /// Creates empty key
     /// </summary>
-    /// <returns>Empty key</returns>
+    /// <returns>New empty key</returns>
     static abstract TSelf Empty();
 
     /// <summary>
@@ -36,9 +39,16 @@ public interface ITypedKey<TSelf, TKey> : ITypedKey<TKey>, IEquatable<TSelf>, IE
     static abstract TSelf New();
 
     /// <summary>
-    /// Creates a new key from value
+    /// Creates a new key from raw value
     /// </summary>
-    /// <param name="key">Value of the key</param>
+    /// <param name="raw">Raw key value</param>
     /// <returns>New key</returns>
-    static abstract TSelf From(TKey key);
+    static abstract TSelf From(TKey raw);
+
+    /// <summary>
+    /// Parse a new key from raw string value
+    /// </summary>
+    /// <param name="raw">Raw string value</param>
+    /// <returns>Parsed key</returns>
+    static abstract TSelf Parse(string raw);
 }

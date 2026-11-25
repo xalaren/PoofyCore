@@ -3,21 +3,16 @@
  
 ## 🔍 Definition
 
-> [!TIP]
+> [!NOTE]
 > Provides the domain entities definitions and related abstractions.
 
-Namespace: PoofyCore.Entities<br/>
+Namespace: PoofyCore.Entities \
 Platform: .NET 10 / C# 14
-
 <br/>
 
 ## 🔌 Interfaces 
 
-[ITypedKey](../../Entities/PoofyCore.Entities/Abstractions/ITypedKey.cs)<br/>
-[IAuditable](../../Entities/PoofyCore.Entities/Abstractions/IAuditable.cs)<br/>
-[IEmptyable](../../Entities/PoofyCore.Entities/Abstractions/IEmptyable.cs)<br/>
-[IExpireable](../../Entities/PoofyCore.Entities/Abstractions/IExpireable.cs)<br/>
-
+[ITypedKey](./ITypedKey.md) \
 <br/>
 
 ## 📐 Abstract classes 
