@@ -1,17 +1,17 @@
 # ITypedKey
 <br/>
 
-**Type:** Interface \
-**Namespace:**: PoofyCore.Entities \
-**Platform:** .NET 10 / C# 14 \
-**Source:** [ITypedKey.cs](../../Entities/PoofyCore.Entities/Abstractions/ITypedKey.cs) \
-<br/>
-
 
 ## 🔍 Definition
 
 > [!NOTE]
 > Provides typed primary key definition.
+
+**Type:** Interface \
+**Namespace:**: PoofyCore.Entities \
+**Platform:** .NET 10 / C# 14 \
+**Source:** [ITypedKey.cs](../../Entities/PoofyCore.Entities/Abstractions/ITypedKey.cs) \
+<br/>
 
 ```csharp
 public interface ITypedKey
