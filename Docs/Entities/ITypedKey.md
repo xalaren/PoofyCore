@@ -103,14 +103,16 @@ ProcessOrder(orderId, userId);  // Calling 'ProcessOrder' not in correct way. Fa
 ## 🔧 Properties 
 
 ### `Key`
-**Description:** The inner raw value of the key \
+The inner raw value of the key
+
 **Type:** [TKey](#tkey) \
 <br/>
 
 ## 📦 Methods
 
 ### `Empty()`
-**Description:** Creates empty key \
+Creates empty key
+
 **Modifiers:** `static`, `abstract` \
 **Return Type:** `TSelf` \
 **Returns:** New empty key
@@ -118,13 +120,15 @@ ProcessOrder(orderId, userId);  // Calling 'ProcessOrder' not in correct way. Fa
 
 
 ### `New()`
-**Description:** Creates a new generated key \
+Creates a new generated key
+
 **Modifiers:** `static`, `abstract` \
 **Return type:** `TSelf`. \
 **Returns:** New generated key
 
 ### `From(TKey key)`
-**Description:** Creates a new generated key \
+Creates a new generated key
+
 **Modifiers:** `static`, `abstract` \
 **Arguments:**
 | Name | Type | Description |
@@ -136,7 +140,8 @@ ProcessOrder(orderId, userId);  // Calling 'ProcessOrder' not in correct way. Fa
 <br/>
 
 ### `Parse(TKey key)`
-**Description:** Parse a new key from raw string value \
+Parse a new key from raw string value
+
 **Modifiers:** `static`, `abstract` \
 **Arguments:**
 | Name | Type | Description |
