@@ -30,14 +30,11 @@ public interface ITypedKey<TSelf, TKey> : ITypedKey<TKey>, IEquatable<TSelf>, IE
 
 ## 🦜 Type Parameters
 
-<a id="tself"></a>
-`TSelf`
----
+### `TSelf`
 Current `ITypedKey` implementation value type. 
 
-<a id="tkey"></a>
-`TKey` 
----
+
+### `TKey` 
 A primitive not null type that identifies an entity (e.g. `Guid`, `int`)
 
 <br/>
@@ -105,30 +102,28 @@ ProcessOrder(orderId, userId);  // Calling 'ProcessOrder' not in correct way. Fa
 
 ## 🔧 Properties 
 
-`Key`
----
+### `Key`
 **Description:** The inner raw value of the key \
 **Type:** [TKey](#tkey) \
 <br/>
 
 ## 📦 Methods
 
-`Empty()`
----
+### `Empty()`
 **Description:** Creates empty key \
 **Modifiers:** `static`, `abstract` \
 **Return Type:** `TSelf` \
 **Returns:** New empty key
+<br/>
 
-`New()`
----
+
+### `New()`
 **Description:** Creates a new generated key \
 **Modifiers:** `static`, `abstract` \
 **Return type:** `TSelf`. \
 **Returns:** New generated key
 
-`From(TKey key)`
----
+### `From(TKey key)`
 **Description:** Creates a new generated key \
 **Modifiers:** `static`, `abstract` \
 **Arguments:**
@@ -138,9 +133,9 @@ ProcessOrder(orderId, userId);  // Calling 'ProcessOrder' not in correct way. Fa
 
 **Return type:** [TSelf](#tself) \
 **Returns:** New key
+<br/>
 
-`Parse(TKey key)`
----
+### `Parse(TKey key)`
 **Description:** Parse a new key from raw string value \
 **Modifiers:** `static`, `abstract` \
 **Arguments:**
@@ -150,5 +145,6 @@ ProcessOrder(orderId, userId);  // Calling 'ProcessOrder' not in correct way. Fa
 
 **Return type:** [TSelf](#tself) \
 **Returns:** Parsed key
+<br/>
 
 
